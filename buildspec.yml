@@ -2,8 +2,8 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html
-    overwrite: true
+    destination: /home/ubuntu/my-python-app
+      overwrite: true
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
